@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background-color: rgb(230, 227, 227);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  text-shadow: 2px 2px 5px greenyellow;
+}
+.main_divs{
+  position: absolute;
+  border-color: black;
+  border:20px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width:84%;
+  background-color: white;
+  text-align: center;
+  height: 520px;
+  overflow: auto;
+}
+.divdiv{
+  margin: 2%;
+  
+}
+.main_heading{
+  background-color: rgb(230, 227, 227);
+  display: flex;
+  height: 55px;
+  justify-content:flex-start;
+  text-shadow: 2px 2px 5px greenyellow;
+}
+.main_heading p{
+  margin:1%;
+  font-weight: bold;
+  cursor: pointer;
+}
+h3{
+  margin-top:8px;
+      
+}
+.answer{
+  margin-top: 0%;
+  text-align: left;
+  padding-left: 3%;
+  word-wrap: break-word;
+  background-color: wheat;
+  /* height:48px; */
+  
+}  
